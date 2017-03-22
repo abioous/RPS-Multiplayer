@@ -1,0 +1,83 @@
+<html>
+	<head>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyBq4fGezsZ-2WGGKziqxAs1iLtDXujer3s",
+	    authDomain: "rps-multiplayer-ab7gh53.firebaseapp.com",
+	    databaseURL: "https://rps-multiplayer-ab7gh53.firebaseio.com",
+	    storageBucket: "rps-multiplayer-ab7gh53.appspot.com",
+	    messagingSenderId: "192394765339"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+
+
+
+	<script src="assets/javascript/app.js"></script>
+	</head>
+
+<body>
+	<div class="jumbotron jumbotron-fluid text-center green-background">
+  <div class="container">
+    <h2 class="display-3">Rock Paper Scissors</h>
+    <p class="lead"></p>
+  </div>
+</div>
+ 	<div class="container">
+ 	
+
+ 	<div  class="row justify-content-md-center">
+	    <div class="col col-md-auto welcome">
+
+		</div>
+	    <div class="col col-md-auto startGame">
+		     <input class="Khaki" type="name" class="form-control" id="name" aria-describedby="namelHelp" placeholder="Name">
+	    </div>
+   		 <div class="col col-md-auto startGame" >
+		    <button type="button" id="startButton" class="btn btn-outline-success">Start</button>
+		</div>
+	</div> <!--  end of row -->
+	<div class="row">
+		<div id="player1Window" class="col-md-4  green-background border">
+     	 
+    	</div>
+    	<div  id="winnerWindow"  class="col-md-4  green-background border">
+     
+    	</div>
+  		<div id="player2Window" class="col-md-4  green-background border">
+ 		</div>
+ 	</div><!--  end of row -->
+   
+    <div class="row">
+    	<div class="col-md-7 offset-md-2  border LemonChiffon">
+		chat
+    	</div>
+    </div> <!--  end of row -->
+    
+    <div class="row  margin-top-sm">
+   		<div class=" offset-md-2 col-md-5"> 	
+    	 	<input class="LightYellow" type="text" class="form-control form-control-success"  id="message">
+   	
+   		</div>
+    	<div class="col-md-2"> 	
+    	 	 <button type="button" id="sendButton" class="btn btn-outline-success ">Send</button>
+   		</div> 	
+    
+    </div>
+
+
+   </div><!--  end of container -->
+</body>
+
+</html>

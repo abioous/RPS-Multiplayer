@@ -1,0 +1,37 @@
+
+.green-background {
+	background-color: lightgreen;
+
+}
+.border{
+
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    margin-top: 10px;
+    padding:10px; 
+    width: 200px;
+    height: 150px; 
+
+}
+
+.margin-top-sm {
+	margin-top: 10px;
+}
+
+.LemonChiffon {
+	background-color: LemonChiffon;
+}
+.Khaki {
+	background-color: Khaki;
+}
+
+
+
+.slection:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+
+
