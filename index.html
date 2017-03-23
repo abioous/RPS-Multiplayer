@@ -30,14 +30,15 @@
 <body>
 	<div class="jumbotron jumbotron-fluid text-center green-background">
   <div class="container">
-    <h2 class="display-3">Rock Paper Scissors</h>
-    <p class="lead"></p>
+    <h3 class="display-3">Rock Paper Scissors</h3>
   </div>
 </div>
  	<div class="container">
  	
 
  	<div  class="row justify-content-md-center">
+	   
+
 	    <div class="col col-md-auto welcome">
 
 		</div>
@@ -48,27 +49,25 @@
 		    <button type="button" id="startButton" class="btn btn-outline-success">Start</button>
 		</div>
 	</div> <!--  end of row -->
-	<div class="row">
-		<div id="player1Window" class="col-md-4  green-background border">
+
+
+
+	<div class="d-flex justify-content-around">
+
+		<div id="player1Window" class="col-md-3  green-background box round-border">
      	 
     	</div>
-    	<div  id="winnerWindow"  class="col-md-4  green-background border">
-     
+    	<div  id="winnerWindow"  class="col-md-3  green-background box round-border ">
+
     	</div>
-  		<div id="player2Window" class="col-md-4  green-background border">
+  		<div id="player2Window" class="col-md-3  green-background box round-border">
  		</div>
  	</div><!--  end of row -->
-   
-    <div class="row">
-    	<div class="col-md-7 offset-md-2  border LemonChiffon">
-		chat
-    	</div>
-    </div> <!--  end of row -->
+
     
-    <div class="row  margin-top-sm">
+    <div class="row  margin-top-sm chat">
    		<div class=" offset-md-2 col-md-5"> 	
-    	 	<input class="LightYellow" type="text" class="form-control form-control-success"  id="message">
-   	
+    	 	<input class="LightYellow" type="text" class="form-control form-control-success offset-md-2 col-md-5" size="40"  id="message">
    		</div>
     	<div class="col-md-2"> 	
     	 	 <button type="button" id="sendButton" class="btn btn-outline-success ">Send</button>
@@ -76,6 +75,12 @@
     
     </div>
 
+   
+    <div class="row">
+    	<div class="col-md-7 offset-md-2  box round-border lightgreybackground" id="chat">
+		
+    	</div>
+    </div> <!--  end of row -->
 
    </div><!--  end of container -->
 </body>

@@ -1,17 +1,27 @@
 
 .green-background {
 	background-color: lightgreen;
-
 }
-.border{
 
-    border-radius: 25px;
-    border: 2px solid #73AD21;
+.lightyellowbackground {
+    background-color: lightyellow;
+}
+
+
+
+.lightgreybackground {
+    background-color: lightgrey
+}
+
+.box{
     margin-top: 10px;
     padding:10px; 
     width: 200px;
-    height: 150px; 
+    min-height: 30vh; 
+}
 
+.round-border {
+    border-radius: 10px;
 }
 
 .margin-top-sm {
@@ -28,8 +38,8 @@
 
 
 .slection:hover {
-    background-color: blue;
-    color: white;
+    background-color: yellow;
+    color: green;
 }
 
 
